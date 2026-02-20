@@ -26,7 +26,7 @@ Y la tercera opcion de Azure Disk Encryption permite usar claves del Key Vault p
 
 <img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/2319ec00-031c-404c-9ad4-21a9f3a484f5" />
 
-En redes hay un aparatado que se llama habilitar el acceso publico (a internet). Dejar todo como esta
+En redes hay un apartado que se llama habilitar el acceso publico (a internet). Dejar todo como esta
 
 <img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/8d3d14ed-20ec-4066-9401-f997daf94325" />
 
@@ -34,6 +34,18 @@ En etiquetas podemos elegir la etiquetas que necesitemos, pero daremos siguiente
 
 <img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/911de907-9441-42a4-9886-44498b5e5c28" />
 
-Revisamos que este todo correcto y le damos a crear
+Revisamos que este todo correcto y le damos a crear. Despues ya estaria creado
 
 <img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/ea208bf1-059c-4e6e-a016-3311a3e429b7" />
+
+# Creacion de Key Vault Secreto
+
+Nos dirigimos al recurso y en la Key Vault vamos al apartado objetos y ahi vemos todas las opciones que tenemos, le damos a secretos y generar
+
+<img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/e539a72d-3282-49e9-b695-5a6f35c3c82e" />
+
+Lo dejamos en manual, despues pondremos un nombre al secreto, yo le he puesto Contraseña1, luego un secreto, el mio es SoyLaContraseña. Depues dejamos todo igual, ya que es para establecer una fecha de activacion y expiracion
+
+<img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/c1fa089d-4cb8-48a3-b6af-676f3f654ceb" />
+
+
